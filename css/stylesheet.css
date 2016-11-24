@@ -1,0 +1,60 @@
+div {
+	border-radius: 5px;
+}
+
+#header {
+	position: absolute;
+	width: 75%;
+	height: 30em;
+	left: 50%;
+	margin-left: -37.5%;
+	margin-top: 20px;
+	background-color: #CAD9DE;
+
+}
+
+.pic {
+	float: left;
+	margin: 1.5em 0em 0em 10em;
+	padding: 1em;
+	width: 300px;
+	border: none;
+	
+	
+}
+
+#name {
+	position: relative;
+	top: 1em;
+	font-family: Calibri, serif;
+	color: #239CC4;
+	font-size: 300%;
+	font-weight: bold;
+}
+#profession {
+	position: relative;
+	top: 1.4em;
+	font-family: Calibri, serif;
+	color: gray;
+	font-size: 150%;
+	font-style: italic;
+}
+.left {
+	float: left;
+	width: 36%;
+	height: 1000px;
+	border: 1px solid #CAD9DE;
+	margin-left: 13.5%;
+	margin-top: 32.5em;
+	margin-bottom: 5em;
+}
+
+.right {
+	float: right;
+	width: 36%;
+	height: 1000px;
+	border: 1px solid #CAD9DE;
+	margin-right: 13.5%;
+	margin-top: 32.5em;
+	margin-bottom: 5em;
+}
