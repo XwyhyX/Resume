@@ -1,5 +1,7 @@
 div {
 	border-radius: 5px;
+	border: 1px dashed black;
+	
 }
 
 #header {
@@ -9,15 +11,14 @@ div {
 	left: 50%;
 	margin-left: -37.5%;
 	margin-top: 20px;
+	padding-top: 20px;
 	background-color: #CAD9DE;
 
 }
 
+
 .pic {
-	float: left;
-	margin: 1.5em 0em 0em 10em;
-	padding: 1em;
-	width: 300px;
+	width: 16vmax;
 	border: none;
 	
 	
@@ -25,18 +26,17 @@ div {
 
 #name {
 	position: relative;
-	top: 1em;
 	font-family: Calibri, serif;
 	color: #239CC4;
-	font-size: 300%;
+	font-size: 3vmax;
 	font-weight: bold;
+	padding-bottom: -5px;
 }
 #profession {
 	position: relative;
-	top: 1.4em;
 	font-family: Calibri, serif;
 	color: gray;
-	font-size: 150%;
+	font-size: 1.5vmax;
 	font-style: italic;
 }
 .left {
