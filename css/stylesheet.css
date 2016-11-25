@@ -29,6 +29,10 @@ h5 {
 
 }
 
+#data {
+	width: 75%;
+}
+
 .header-contents {
 	margin: auto;
 }
@@ -60,21 +64,16 @@ h5 {
 	margin-top: 5px;
 }
 .left {
-	float: left;
-	width: 36%;
 	border: 1px solid #CAD9DE;
-	margin-left: 13.5%;
-	margin-bottom: 5em;
+	margin: auto;
 }
 
 .right {
-	float: right;
-	width: 36%;
 	border: 1px solid #CAD9DE;
-	margin-right: 13.5%;
-	margin-bottom: 5em;
+	margin: auto;
 }
 
+}
 .details {
 	font-family: Calibri,sans-serif;
 	color: gray;
