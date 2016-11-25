@@ -77,18 +77,32 @@ h5 {
 
 .details {
 	font-family: Calibri,sans-serif;
-	font-color:gray;
-	font-weight: bold;
+	color: gray;
+	font-weight: none;
+	
 }
 .text-justify-xs {
     text-align: justify;
 }
 
+
+@media(min-width: 320px){
+	 .text-smaller {
+    	font-size: 4vmin;
+    }
+    .text-dtl-smaller {
+    	font-size: 3vmin;
+    }
+}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .text-justify-sm {
         text-align: justify;
     }
+    .text-dtl-normal {
+    	font-size: 2vmin;
+    }
+
 }
 
 /* Medium devices (desktops, 992px and up) */
