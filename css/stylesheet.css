@@ -72,12 +72,12 @@ h5 {
 	border: 1px solid #CAD9DE;
 	margin: auto;
 }
-
+.plain-link:hover {
+	text-decoration: none;
+}
 }
 .details {
 	font-family: Calibri,sans-serif;
-	color: gray;
-	font-weight: none;
 	
 }
 .text-justify-xs {
@@ -88,9 +88,11 @@ h5 {
 @media(min-width: 320px){
 	 .text-smaller {
     	font-size: 4vmin;
+    	font-weight: bold;
     }
     .text-dtl-smaller {
     	font-size: 3vmin;
+    	color: gray;
     }
 }
 /* Small devices (tablets, 768px and up) */
@@ -100,6 +102,7 @@ h5 {
     }
     .text-dtl-normal {
     	font-size: 2vmin;
+    	color: gray;
     }
 
 }
