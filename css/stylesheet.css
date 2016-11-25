@@ -1,21 +1,37 @@
+
 div {
 	border-radius: 5px;
 	
 	
 }
 
+h2 {
+	font-family: sans-serif;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+h5 {
+	font-weight: bold;
+}
 #header {
-	position: absolute;
+	position: relative;
 	width: 75%;
-	height: 30em;
 	left: 50%;
 	margin-left: -37.5%;
 	margin-top: 20px;
+	margin-bottom: 20px	;
 	padding-top: 20px;
+	padding-bottom: 20px;
 	background-color: #CAD9DE;
 
 }
 
+.header-contents {
+	margin: auto;
+}
 
 .pic {
 	width: 16vmax;
@@ -38,23 +54,53 @@ div {
 	color: gray;
 	font-size: 1.5vmax;
 	font-style: italic;
+	font-weight: none;
+}
+#links {
+	margin-top: 5px;
 }
 .left {
 	float: left;
 	width: 36%;
-	height: 1000px;
 	border: 1px solid #CAD9DE;
 	margin-left: 13.5%;
-	margin-top: 32.5em;
 	margin-bottom: 5em;
 }
 
 .right {
 	float: right;
 	width: 36%;
-	height: 1000px;
 	border: 1px solid #CAD9DE;
 	margin-right: 13.5%;
-	margin-top: 32.5em;
 	margin-bottom: 5em;
+}
+
+.details {
+	font-family: Calibri,sans-serif;
+	font-color:gray;
+	font-weight: bold;
+}
+.text-justify-xs {
+    text-align: justify;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .text-justify-sm {
+        text-align: justify;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .text-left-md {
+        text-align: left;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .text-left-lg {
+        text-align: left;
+    }
 }
