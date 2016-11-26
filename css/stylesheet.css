@@ -92,6 +92,7 @@ h5 {
 	 .text-smaller {
     	font-size: 4vmin;
     	font-weight: bold;
+    	text-decoration: none:;
     }
     .text-dtl-smaller {
     	font-size: 3vmin;
